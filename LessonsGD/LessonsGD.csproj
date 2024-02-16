@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Seminars\**" />
+    <EmbeddedResource Remove="Seminars\**" />
+    <None Remove="Seminars\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Seminar2\Task2_2.cs~RF4fcc46a.TMP" />
+  </ItemGroup>
+
+</Project>
